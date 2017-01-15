@@ -20,7 +20,8 @@ rate and inconsistent forward and backward compatibilities of the modules.
 
 Then:
 
-```git clone
+```
+git clone http://github.com/markatango/messageManagerNM4.git
 cd messageManagerNM4
 npm install
 bower install
@@ -30,13 +31,11 @@ Navigate to the ```back-end``` folder.
 ```
 npm install
 ```
-
 Navigate to the ```front-end``` folder.
 ```
 npm install
 bower install
 ```
-
 Go back to the ```back-end``` folder and:
 ```node server
 ```
