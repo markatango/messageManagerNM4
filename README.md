@@ -20,26 +20,32 @@ rate and inconsistent forward and backward compatibilities of the modules.
 
 Then:
 
-```git clone https://github.com/markatango/messageManagerNM4.git
+```git clone
 cd messageManagerNM4
 npm install
 bower install
 ```
-Open a command prompt window. 
+Open a command prompt window.
 Navigate to the ```back-end``` folder.
-```npm install```
+```
+npm install
+```
 
 Navigate to the ```front-end``` folder.
-```npm install```
-```bower install```
+```
+npm install
+bower install
+```
 
 Go back to the ```back-end``` folder and:
-```node server```
+```node server
+```
 
 A server should start up on port 5000 and a message should appear declaring successful connection to MongoDB.
 
 Now open a second command prompt window, navigate to ```front-end```, and:
-```gulp serve```
+```gulp serve
+```
 
 Finally, open a browser to localhost:3000, and you should see the application.
 
